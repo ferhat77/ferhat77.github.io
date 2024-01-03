@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap");
+:root {
+  --primary: #091326;
+  --secondary: #dbd814;
+  --third: #f29966;
+  --fourth: #bf5d39;
+  --fifth: #59211c;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  background-color: var(--secondary);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  border-bottom: 1px solid var(--primary);
+  padding-bottom: 25px;
+}
+.resim {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.baslik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Icon i {
+  font-size: 20px;
+}
+.bodyContainer {
+  display: flex;
+  height: 60%;
+}
+.menu {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--primary);
+  align-items:center ;
+  justify-content: space-around;
+}
+.icerik {
+  width: 75%;
+  
+}
+.menu a {
+  text-decoration: none;
+}
+.footerContainer {
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.menu > a:hover{
+  color: pink;
+}
